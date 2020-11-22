@@ -18,8 +18,3 @@ def egcd(a, b):
     return(gcd, x, y)
 # Пример    
 print( egcd(98, 5) )
-    
-
-
-
-
