@@ -36,7 +36,6 @@ def rabin_karp(text, pattern):
         textwindowsum = textwindowsum - ord(text[i]) + ord(text[i + len(pattern)])
     return result
 
-
 class RabinKarpTest(unittest.TestCase):
     """Тесты для метода Рабина-Карпа"""
 
