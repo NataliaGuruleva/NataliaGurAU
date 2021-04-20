@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+<p>Проверка числа на простоту Вильсона.</p>
+<p>Введите число.</p>
+<p>{{name}}</p>
+
+<form action="/test" method="GET">
+    <input type="text" value="{{name}}" name="name" />
+    <input type="submit" value="Get!">
+  </form>
+
+{% endblock %}
